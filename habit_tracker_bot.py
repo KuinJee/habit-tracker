@@ -12,7 +12,7 @@ from telegram.ext import (
     ContextTypes, JobQueue, ConversationHandler, MessageHandler, filters
 )
 
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '7742690883:AAFClrtlv4YYlKzFTI5oID6yWkTqke0SBV4')
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 # Состояния для ConversationHandler
 SETTING_REMINDER_TIME = 0

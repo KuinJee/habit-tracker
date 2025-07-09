@@ -1,1 +1,1 @@
-web: python habit_tracker_bot.py 
+worker: bash start.sh 
